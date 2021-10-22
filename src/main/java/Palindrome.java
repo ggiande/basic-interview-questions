@@ -1,5 +1,5 @@
-/** Main class that checks for palindromes. */
-public class Main {
+/** Palindrome class that checks for palindromes. */
+public class Palindrome {
 
   /** Returns if provided word is a Palindrome.
    *

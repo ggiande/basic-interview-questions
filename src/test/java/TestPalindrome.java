@@ -3,17 +3,17 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class TestMain {
+public class TestPalindrome {
 
   @Test
   public void isPalindromeTrue() {
     String word = "racecar";
-    assertTrue(Main.isPalindrome(word));
+    assertTrue(Palindrome.isPalindrome(word));
   }
 
   @Test
   public void isPalindromeFalse() {
     String word = "raceca";
-    assertFalse(Main.isPalindrome(word));
+    assertFalse(Palindrome.isPalindrome(word));
   }
 }
